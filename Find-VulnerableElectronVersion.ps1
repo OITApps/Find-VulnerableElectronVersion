@@ -1,6 +1,6 @@
 function Find-VulnerableElectronVersion {
     ## Requires Sysinternals to be installed: https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
-    ## Example syntax: Get-ElectronVersion -AppPath C:\Users\<username>\AppData\Local\Programs\ClickUp -AppName ClickUp.exe -StringsPath C:\Users\<username>\Documents\Sysinternals
+    ## Example syntax: Get-ElectronVersion -AppPath C:\Users\<username>\AppData\Local\Programs\AppName -FileName AppName.exe -StringsPath C:\Users\<username>\Documents\Sysinternals
     param (
         [Parameter(Mandatory = $true)][String]$AppPath,
         [Parameter(Mandatory = $true)][String]$FileName,
